@@ -26,41 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/app/pasrservice/oat/arm64/pasrservice.vdex:$(TARGET_COPY_OUT_VENDOR)/app/pasrservice/oat/arm64/pasrservice.vdex \
     vendor/meizu/m2391/proprietary/vendor/app/powermodule_java/oat/arm64/powermodule_java.odex:$(TARGET_COPY_OUT_VENDOR)/app/powermodule_java/oat/arm64/powermodule_java.odex \
     vendor/meizu/m2391/proprietary/vendor/app/powermodule_java/oat/arm64/powermodule_java.vdex:$(TARGET_COPY_OUT_VENDOR)/app/powermodule_java/oat/arm64/powermodule_java.vdex \
-    vendor/meizu/m2391/proprietary/vendor/bin/COSNet_spatial_8bit_quantized.serialized.bin:$(TARGET_COPY_OUT_VENDOR)/bin/COSNet_spatial_8bit_quantized.serialized.bin \
-    vendor/meizu/m2391/proprietary/vendor/bin/checkpoint_gc:$(TARGET_COPY_OUT_VENDOR)/bin/checkpoint_gc \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama_3_2_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama_3_2_1.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama_3_4_0.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama_3_4_0.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama_default_3_4_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama_default_3_4_1.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.mdm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.mdm.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.media.videofilter.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.media.videofilter.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.meizu.smart_zram.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.meizu.smart_zram.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.class_core.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.class_core.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.coex.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.coex.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.early_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.early_boot.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.efs.sync.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.efs.sync.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.post_boot.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.sdio.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sdio.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.usb.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.usb.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.display_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.display_boot.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.debug-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug-kalama.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.debug.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.early_debug-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.early_debug-kalama.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.early_debug.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.early_debug.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.media.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.media.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.qcv.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qcv.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.write.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.write.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/qca6234-service.sh:$(TARGET_COPY_OUT_VENDOR)/bin/qca6234-service.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/qtigetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtigetprop \
-    vendor/meizu/m2391/proprietary/vendor/bin/qtisetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtisetprop \
-    vendor/meizu/m2391/proprietary/vendor/bin/system_dlkm_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/system_dlkm_modprobe.sh \
-    vendor/meizu/m2391/proprietary/vendor/bin/vendor_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_modprobe.sh \
     vendor/meizu/m2391/proprietary/vendor/etc/IPACM_Filter_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_Filter_cfg.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
@@ -724,84 +689,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/usb_compositions.conf:$(TARGET_COPY_OUT_VENDOR)/etc/usb_compositions.conf \
     vendor/meizu/m2391/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot@1.2.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health-service.qti.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.config.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.data.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.data.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.messaging.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.messaging.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.modem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.modem.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.network.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.network.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.sim.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.sim.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.radio.voice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.radio.voice.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb.gadget@1.1-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.2-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/bttpi-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bttpi-saidl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/c2_manifest_vendor.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/c2_manifest_vendor_audio.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/dataconnection-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/dataconnection-saidl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/deviceinfo-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/deviceinfo-saidl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/imsdcservice-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/imsdcservice-saidl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_non_qmaa.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/manifest_non_qmaa_extn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_non_qmaa_extn.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/manifest_xingji_face_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_xingji_face_default.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/manifest_xingji_qsee_store_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_xingji_qsee_store_default.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/memtrack_qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/memtrack_qti.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/nxp-uwb-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/nxp-uwb-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/power.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/qcrilhook-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/qcrilhook-saidl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/qfp-daemon.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/qfp-daemon.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/qtiradio-saidl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/qtiradio-saidl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/secure_element-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/secure_element-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.aks.gamepad@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.aks.gamepad@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.fbase_defrag@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.fbase_defrag@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.fido@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.fido@2.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.ifaa@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.ifaa@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.meizu_charging@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.meizu_charging@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.meizu_kelog@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.meizu_kelog@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.qsh_geofence-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.qsh_geofence-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.hardware.tiktap_hidl@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.hardware.tiktap_hidl@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.ir@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.ir@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.meizu.sensor_aux@1.0-default-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.meizu.sensor_aux@1.0-default-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.camera.aon-impl-1.3.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.camera.provider.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.camera.provider.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.diag.hal.service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.esepowermanager@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.esepowermanager@1.1-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.lights.service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.limits-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.perf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.perf.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.qconfig@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.qxr-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.am.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.radio.am.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.radio.ims.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.vpp@2.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.wifidisplaysession-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.hardware.wifidisplaysession-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.qti.qspa-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.qspa-service.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/vintf/manifest/vendor.rongcard.hardware.eid_rk@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.rongcard.hardware.eid_rk@1.0-service.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/virtual_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual_audio_policy_configuration.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/meizu/m2391/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
