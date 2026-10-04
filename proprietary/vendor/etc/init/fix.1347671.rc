@@ -1,0 +1,8 @@
+on property:ro.serialno=*
+    setprop ro.vendor.serialno ${ro.serialno}
+
+service vendor.fix.1347671 /vendor/bin/fix.1347671
+    class late_start
+    user nobody
+    group drmrpc
+    oneshot

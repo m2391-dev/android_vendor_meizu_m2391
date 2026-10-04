@@ -1,0 +1,5 @@
+service vendor.default.qsh_geofence-service /vendor/bin/hw/vendor.meizu.hardware.qsh_geofence-service
+    interface aidl vendor.meizu.hardware.qsh_geofence.IQshGeofence/default
+    class hal
+    user system
+    group system

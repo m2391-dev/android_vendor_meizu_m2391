@@ -1,0 +1,10 @@
+service vendor.erf.image_updater /vendor/bin/image_update /dev/block/by-name/erf /vendor/etc/ufs_ffu_firmware.bin
+    class late_start
+    user root
+    group system
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1
+    setprop ro.vendor.erf.image_update successful
+    start vendor.erf.image_updater

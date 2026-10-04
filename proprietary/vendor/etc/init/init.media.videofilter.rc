@@ -1,0 +1,32 @@
+service videofilterdump /vendor/bin/init.media.videofilter.sh
+    class main
+    user mediacodec
+    group mediadrm
+    disabled
+    oneshot
+    #seclabel u:r:vendor_media_videofilter_exec:s0
+
+on boot
+    mkdir /data/vendor/media/qc2 0777 mediacodec mediadrm
+    mkdir /data/vendor/videofilter 0777 mediacodec mediadrm
+    #start videofilterdump
+
+on property:debug.media.videofilter.enable=1
+    mkdir /data/vendor/videofilter 0777 mediacodec mediadrm
+    setprop vendor.media.video.dump 1
+    setprop vendor.qc2.log.msg 0xFF0000FF
+    write /sys/module/msm_video/parameters/msm_vidc_debug 0x103f101f
+    chmod 0777 /data/vendor/media
+    chmod 0777 /data/vendor/media/qc2
+    chmod 0777 /data/vendor/videofilter
+
+on property:debug.media.videofilter.enable=0
+    mkdir /data/vendor/videofilter 0777 mediacodec mediadrm
+    setprop vendor.media.video.dump 0
+    setprop vendor.qc2.log.msg 0
+    write /sys/module/msm_video/parameters/msm_vidc_debug 0x10000001
+    chmod 0777 /data/vendor/media
+    chmod 0777 /data/vendor/media/qc2
+    chmod 0777 /data/vendor/videofilter
+    #rm /data/vendor/videofilter
+    #exec u:r:init:s0 - mediacodec mediadrm -- /vendor/bin/init.media.videofilter.sh

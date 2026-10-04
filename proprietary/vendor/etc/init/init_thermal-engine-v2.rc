@@ -1,0 +1,50 @@
+#! /bin/sh
+#
+#Copyright (c) 2021 Qualcomm Technologies, Inc.
+#All Rights Reserved.
+#Confidential and Proprietary - Qualcomm Technologies, Inc.
+
+service thermal-engine /vendor/bin/thermal-engine-v2
+	class main
+	user root
+	group root
+	socket thermal-send-client stream 0660 system oem_2907
+	socket thermal-recv-client stream 0660 system oem_2907
+	socket thermal-recv-passive-client stream 0660 system oem_2907
+	socket thermal-send-rule stream 0660 system oem_2907
+
+on property:sys.boot_completed=1
+	restart thermal-engine
+
+on property:persist.sys.thermal.scene=-1
+    stop thermal-engine
+    setprop persist.vendor.thermal.config ""
+    start thermal-engine
+on property:persist.sys.thermal.scene=0
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.low.conf"
+    start thermal-engine
+on property:persist.sys.thermal.scene=1
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.mid.conf"
+    start thermal-engine
+on property:persist.sys.thermal.scene=2
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.high.conf"
+    start thermal-engine
+on property:persist.sys.thermal.scene=3
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.benchmark.conf"
+    start thermal-engine
+on property:persist.sys.thermal.scene=4
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.super.conf"
+    start thermal-engine
+on property:persist.sys.thermal.scene=5
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.sgame.conf"
+    start thermal-engine
+on property:persist.sys.thermal.scene=6
+    stop thermal-engine
+    setprop persist.vendor.thermal.config "/vendor/etc/thermal.monkey.conf"
+    start thermal-engine

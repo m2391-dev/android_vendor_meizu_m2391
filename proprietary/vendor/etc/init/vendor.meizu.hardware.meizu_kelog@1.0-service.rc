@@ -1,0 +1,5 @@
+service vendor.default.meizu_kelog-1-0 /vendor/bin/hw/vendor.meizu.hardware.meizu_kelog@1.0-service
+    class late_start
+    user root
+    group everybody system sdcard_rw
+
