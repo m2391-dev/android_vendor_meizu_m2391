@@ -1990,7 +1990,7 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
     libstagefright_foundation \
-    libstagefright_omx \
+    libstagefright_omx_vendor \
     com.arcsoft.node.smooth_transition \
     com.arcsoft.node.supernightraw \
     com.qti.node.remosaic \
