@@ -33869,10 +33869,3 @@ install_symlink {
     installed_location: "lib64/libq3dtools_adreno.so",
     symlink_target: "egl/libq3dtools_adreno.so",
 }
-
-install_symlink {
-    name: "m2391_link_odm",
-    soc_specific: true,
-    installed_location: "odm",
-    symlink_target: "/odm",
-}

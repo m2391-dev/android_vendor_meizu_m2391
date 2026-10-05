@@ -2680,7 +2680,6 @@ PRODUCT_PACKAGES += \
     m2391_link_lib64_libEGL_adreno_so \
     m2391_link_lib64_libGLESv2_adreno_so \
     m2391_link_lib64_libq3dtools_adreno_so \
-    m2391_link_odm \
     CneApp.libvndfwk_detect_jni.qti_vendor_symlink \
     rfs_apq_gnss_hlos_symlink \
     rfs_apq_gnss_ramdumps_symlink \
