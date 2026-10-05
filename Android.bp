@@ -32512,6 +32512,13 @@ m2391_prebuilt_etc_common {
     prefer: true,
 }
 
+m2391_prebuilt_lib {
+    name: "m2391_qesdk_vendor_lib",
+    src: "proprietary/vendor/lib/libqti-qesdk-secure.so",
+    filename: "libqti-qesdk-secure.so",
+    soc_specific: true,
+}
+
 prebuilt_overlay {
     name: "m2391_ConnectivityResCommon_Vendor_Mz",
     soc_specific: true,
@@ -33868,11 +33875,4 @@ install_symlink {
     soc_specific: true,
     installed_location: "odm",
     symlink_target: "/odm",
-}
-
-install_symlink {
-    name: "m2391_link_lib_libqti_qesdk_secure_so",
-    soc_specific: true,
-    installed_location: "lib/libqti-qesdk-secure.so",
-    symlink_target: "../lib64/libqti-qesdk-secure.so",
 }

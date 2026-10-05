@@ -201,23 +201,23 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
     vendor/meizu/m2391/proprietary/vendor/etc/iAmCdRom.iso:$(TARGET_COPY_OUT_VENDOR)/etc/iAmCdRom.iso \
     vendor/meizu/m2391/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.audio.service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service_64.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-qti.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-external-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-external-service.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.m2391.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-external-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-external-service.m2391.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.m2391.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.health-service.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.qti.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.health-service.qti.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.qti.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.identity-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.identity-service-qti.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.power-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.security.keymint-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service-qti.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.qti-v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.qti-v2.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget@1.1-service-qti.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-qti.rc \
@@ -262,7 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/init/ipacm-diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm-diag.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/ipacm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipacm.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/memtrack_qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack_qti.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/memtrack_qti.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack_qti.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/nxp-uwb-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp-uwb-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -323,14 +323,14 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator.service.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator.service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator.service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.media.c2audio@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2audio@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.memory.pasrmanager@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.pasrknob@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.psiclient@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.psiclient@1.0-service.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.qspa-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspa-service.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.qspa-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspa-service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.secure_element@1.2-service.rc \
@@ -341,7 +341,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.xingji.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xingji.hardware.biometrics.face@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.xingji.hardware.qsee.store@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xingji.hardware.qsee.store@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/vndservicemanager.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
@@ -2481,7 +2481,8 @@ PRODUCT_PACKAGES += \
     vendor_seapp_contexts \
     vendor_sepolicy.cil \
     vendor_service_contexts \
-    vndservice_contexts
+    vndservice_contexts \
+    m2391_qesdk_vendor_lib
 
 PRODUCT_PACKAGES += \
     m2391_ConnectivityResCommon_Vendor_Mz \
@@ -2680,7 +2681,6 @@ PRODUCT_PACKAGES += \
     m2391_link_lib64_libGLESv2_adreno_so \
     m2391_link_lib64_libq3dtools_adreno_so \
     m2391_link_odm \
-    m2391_link_lib_libqti_qesdk_secure_so \
     CneApp.libvndfwk_detect_jni.qti_vendor_symlink \
     rfs_apq_gnss_hlos_symlink \
     rfs_apq_gnss_ramdumps_symlink \
