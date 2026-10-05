@@ -1742,7 +1742,7 @@ PRODUCT_PACKAGES += \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
     libubifocus \
-    libvibrator \
+    libvibrator_vendor \
     libvideoml \
     libvideooptfeature \
     libvideotxr \
@@ -1989,7 +1989,7 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_foundation \
+    libstagefright_foundation_vendor \
     libstagefright_omx_vendor \
     com.arcsoft.node.smooth_transition \
     com.arcsoft.node.supernightraw \
