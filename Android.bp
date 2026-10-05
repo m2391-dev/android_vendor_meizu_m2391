@@ -32377,6 +32377,141 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+m2391_prebuilt_etc {
+    name: "android.hardware.hardware_keystore.xml",
+    src: "proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml",
+    filename: "android.hardware.hardware_keystore.xml",
+    relative_install_path: "permissions",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "plat_pub_versioned.cil",
+    src: "proprietary/vendor/etc/selinux/plat_pub_versioned.cil",
+    filename: "plat_pub_versioned.cil",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "plat_sepolicy_vers.txt",
+    src: "proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt",
+    filename: "plat_sepolicy_vers.txt",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc {
+    name: "system_core_charger_res_images_battery_fail.png_default_vendor",
+    src: "proprietary/vendor/etc/res/images/default/charger/battery_fail.png",
+    filename: "battery_fail.png",
+    relative_install_path: "res/images/default/charger",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc {
+    name: "system_core_charger_res_images_battery_scale.png_default_vendor",
+    src: "proprietary/vendor/etc/res/images/default/charger/battery_scale.png",
+    filename: "battery_scale.png",
+    relative_install_path: "res/images/default/charger",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc {
+    name: "usb_compositions.conf",
+    src: "proprietary/vendor/etc/usb_compositions.conf",
+    filename: "usb_compositions.conf",
+    relative_install_path: ".",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_bug_map",
+    src: "proprietary/vendor/etc/selinux/selinux_denial_metadata",
+    filename: "selinux_denial_metadata",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_file_contexts",
+    src: "proprietary/vendor/etc/selinux/vendor_file_contexts",
+    filename: "vendor_file_contexts",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_hwservice_contexts",
+    src: "proprietary/vendor/etc/selinux/vendor_hwservice_contexts",
+    filename: "vendor_hwservice_contexts",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_mac_permissions.xml",
+    src: "proprietary/vendor/etc/selinux/vendor_mac_permissions.xml",
+    filename: "vendor_mac_permissions.xml",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_property_contexts",
+    src: "proprietary/vendor/etc/selinux/vendor_property_contexts",
+    filename: "vendor_property_contexts",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_seapp_contexts",
+    src: "proprietary/vendor/etc/selinux/vendor_seapp_contexts",
+    filename: "vendor_seapp_contexts",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_sepolicy.cil",
+    src: "proprietary/vendor/etc/selinux/vendor_sepolicy.cil",
+    filename: "vendor_sepolicy.cil",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vendor_service_contexts",
+    src: "proprietary/vendor/etc/selinux/vendor_service_contexts",
+    filename: "vendor_service_contexts",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
+m2391_prebuilt_etc_common {
+    name: "vndservice_contexts",
+    src: "proprietary/vendor/etc/selinux/vndservice_contexts",
+    filename: "vndservice_contexts",
+    relative_install_path: "selinux",
+    soc_specific: true,
+    prefer: true,
+}
+
 prebuilt_overlay {
     name: "m2391_ConnectivityResCommon_Vendor_Mz",
     soc_specific: true,

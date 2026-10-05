@@ -6,28 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m2391
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m2391/proprietary/odm/etc/group:$(TARGET_COPY_OUT_ODM)/etc/group \
-    vendor/meizu/m2391/proprietary/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/etc/passwd \
-    vendor/meizu/m2391/proprietary/vendor/app/CACertService/oat/arm64/CACertService.odex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm64/CACertService.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/CACertService/oat/arm64/CACertService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CACertService/oat/arm64/CACertService.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/CneApp/oat/arm64/CneApp.odex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm64/CneApp.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/CneApp/oat/arm64/CneApp.vdex:$(TARGET_COPY_OUT_VENDOR)/app/CneApp/oat/arm64/CneApp.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/ConnectionSecurityService/oat/arm64/ConnectionSecurityService.odex:$(TARGET_COPY_OUT_VENDOR)/app/ConnectionSecurityService/oat/arm64/ConnectionSecurityService.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/ConnectionSecurityService/oat/arm64/ConnectionSecurityService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/ConnectionSecurityService/oat/arm64/ConnectionSecurityService.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/IWlanService/oat/arm64/IWlanService.odex:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/oat/arm64/IWlanService.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/IWlanService/oat/arm64/IWlanService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/IWlanService/oat/arm64/IWlanService.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/QFingerprintService/oat/arm64/QFingerprintService.odex:$(TARGET_COPY_OUT_VENDOR)/app/QFingerprintService/oat/arm64/QFingerprintService.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/QFingerprintService/oat/arm64/QFingerprintService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/QFingerprintService/oat/arm64/QFingerprintService.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/TimeService/oat/arm64/TimeService.odex:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/oat/arm64/TimeService.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/TimeService/oat/arm64/TimeService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/TimeService/oat/arm64/TimeService.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex:$(TARGET_COPY_OUT_VENDOR)/app/TrustZoneAccessService/oat/arm64/TrustZoneAccessService.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/pasrservice/oat/arm64/pasrservice.odex:$(TARGET_COPY_OUT_VENDOR)/app/pasrservice/oat/arm64/pasrservice.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/pasrservice/oat/arm64/pasrservice.vdex:$(TARGET_COPY_OUT_VENDOR)/app/pasrservice/oat/arm64/pasrservice.vdex \
-    vendor/meizu/m2391/proprietary/vendor/app/powermodule_java/oat/arm64/powermodule_java.odex:$(TARGET_COPY_OUT_VENDOR)/app/powermodule_java/oat/arm64/powermodule_java.odex \
-    vendor/meizu/m2391/proprietary/vendor/app/powermodule_java/oat/arm64/powermodule_java.vdex:$(TARGET_COPY_OUT_VENDOR)/app/powermodule_java/oat/arm64/powermodule_java.vdex \
     vendor/meizu/m2391/proprietary/vendor/bin/COSNet_spatial_8bit_quantized.serialized.bin:$(TARGET_COPY_OUT_VENDOR)/bin/COSNet_spatial_8bit_quantized.serialized.bin \
-    vendor/meizu/m2391/proprietary/vendor/bin/checkpoint_gc:$(TARGET_COPY_OUT_VENDOR)/bin/checkpoint_gc \
     vendor/meizu/m2391/proprietary/vendor/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
     vendor/meizu/m2391/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
     vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama.sh \
@@ -216,7 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/meizu/m2391/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    vendor/meizu/m2391/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/group \
     vendor/meizu/m2391/proprietary/vendor/etc/hal_uuid_map_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hal_uuid_map_config.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
     vendor/meizu/m2391/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
@@ -428,13 +406,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/meizu_charging.ini:$(TARGET_COPY_OUT_VENDOR)/etc/meizu_charging.ini \
     vendor/meizu/m2391/proprietary/vendor/etc/meizu_kelog.ini:$(TARGET_COPY_OUT_VENDOR)/etc/meizu_kelog.ini \
     vendor/meizu/m2391/proprietary/vendor/etc/microphone_characteristics.xml:$(TARGET_COPY_OUT_VENDOR)/etc/microphone_characteristics.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     vendor/meizu/m2391/proprietary/vendor/etc/models/acd/event.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/event.eai \
     vendor/meizu/m2391/proprietary/vendor/etc/models/acd/music.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/music.eai \
     vendor/meizu/m2391/proprietary/vendor/etc/models/acd/speech.eai:$(TARGET_COPY_OUT_VENDOR)/etc/models/acd/speech.eai \
     vendor/meizu/m2391/proprietary/vendor/etc/mpower.ini:$(TARGET_COPY_OUT_VENDOR)/etc/mpower.ini \
     vendor/meizu/m2391/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/meizu/m2391/proprietary/vendor/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/etc/passwd \
     vendor/meizu/m2391/proprietary/vendor/etc/perf/avcsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/avcsysnodesconfigs.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/perf/commonsysnodesconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonsysnodesconfigs.xml \
@@ -458,7 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
@@ -551,8 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/qvr/qvr_usb_device_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvr_usb_device_list.txt \
     vendor/meizu/m2391/proprietary/vendor/etc/qvr/qvrservice_config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/qvr/qvrservice_config.txt \
     vendor/meizu/m2391/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/res/images/default/charger/battery_fail.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/battery_fail.png \
-    vendor/meizu/m2391/proprietary/vendor/etc/res/images/default/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/battery_scale.png \
     vendor/meizu/m2391/proprietary/vendor/etc/res/images/default/charger/meizu_fhd_background.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/meizu_fhd_background.png \
     vendor/meizu/m2391/proprietary/vendor/etc/res/images/default/charger/meizu_fhd_bat_ac_low.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/meizu_fhd_bat_ac_low.png \
     vendor/meizu/m2391/proprietary/vendor/etc/res/images/default/charger/meizu_fhd_bat_usb_low_en.png:$(TARGET_COPY_OUT_VENDOR)/etc/res/images/default/charger/meizu_fhd_bat_usb_low_en.png \
@@ -596,17 +569,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
     vendor/meizu/m2391/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
     vendor/meizu/m2391/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_pub_versioned.cil \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/selinux_denial_metadata:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/selinux_denial_metadata \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_file_contexts \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_hwservice_contexts \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_mac_permissions.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_property_contexts \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_seapp_contexts \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_sepolicy.cil \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vendor_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_service_contexts \
-    vendor/meizu/m2391/proprietary/vendor/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts \
     vendor/meizu/m2391/proprietary/vendor/etc/sensors/config/json.lst:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/json.lst \
     vendor/meizu/m2391/proprietary/vendor/etc/sensors/config/kailua_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_0.json \
     vendor/meizu/m2391/proprietary/vendor/etc/sensors/config/kailua_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_bu52053nvx_0.json \
@@ -721,7 +683,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/ufs_ffu_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ufs_ffu_firmware.bin \
     vendor/meizu/m2391/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/meizu/m2391/proprietary/vendor/etc/usb_compositions.conf:$(TARGET_COPY_OUT_VENDOR)/etc/usb_compositions.conf \
     vendor/meizu/m2391/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/virtual_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual_audio_policy_configuration.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
@@ -2504,6 +2465,23 @@ PRODUCT_PACKAGES += \
     wpa_cli \
     xtra-daemon_m2391 \
     xtwifi-client_m2391
+
+PRODUCT_PACKAGES += \
+    android.hardware.hardware_keystore.xml \
+    plat_pub_versioned.cil \
+    plat_sepolicy_vers.txt \
+    system_core_charger_res_images_battery_fail.png_default_vendor \
+    system_core_charger_res_images_battery_scale.png_default_vendor \
+    usb_compositions.conf \
+    vendor_bug_map \
+    vendor_file_contexts \
+    vendor_hwservice_contexts \
+    vendor_mac_permissions.xml \
+    vendor_property_contexts \
+    vendor_seapp_contexts \
+    vendor_sepolicy.cil \
+    vendor_service_contexts \
+    vndservice_contexts
 
 PRODUCT_PACKAGES += \
     m2391_ConnectivityResCommon_Vendor_Mz \
