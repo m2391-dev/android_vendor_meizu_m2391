@@ -1042,6 +1042,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor_dlkm/lib/modules/system_dlkm.modules.blocklist:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/system_dlkm.modules.blocklist
 
 PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-external \
+    android.hardware.camera.provider@2.4-legacy \
     android.hardware.secure_element@1.0-impl_m2391 \
     btaudio_offload_if_m2391 \
     camera.device@1.0-impl \
