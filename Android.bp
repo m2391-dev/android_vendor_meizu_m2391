@@ -15054,26 +15054,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqti-qesdk-secure_m2391",
-    stem: "libqti-qesdk-secure",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqti-qesdk-secure.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqti-util_m2391",
     stem: "libqti-util",
     owner: "meizu",
@@ -25169,6 +25149,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libqti-qesdk-secure_m2391",
+    stem: "libqti-qesdk-secure",
+    owner: "meizu",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libqti-qesdk-secure.so",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libqtivibratoreffect",
     owner: "meizu",
     strip: {
@@ -33733,4 +33733,11 @@ install_symlink {
     soc_specific: true,
     installed_location: "odm",
     symlink_target: "/odm",
+}
+
+install_symlink {
+    name: "m2391_link_lib_libqti_qesdk_secure_so",
+    soc_specific: true,
+    installed_location: "lib/libqti-qesdk-secure.so",
+    symlink_target: "../lib64/libqti-qesdk-secure.so",
 }

@@ -26,6 +26,41 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/app/pasrservice/oat/arm64/pasrservice.vdex:$(TARGET_COPY_OUT_VENDOR)/app/pasrservice/oat/arm64/pasrservice.vdex \
     vendor/meizu/m2391/proprietary/vendor/app/powermodule_java/oat/arm64/powermodule_java.odex:$(TARGET_COPY_OUT_VENDOR)/app/powermodule_java/oat/arm64/powermodule_java.odex \
     vendor/meizu/m2391/proprietary/vendor/app/powermodule_java/oat/arm64/powermodule_java.vdex:$(TARGET_COPY_OUT_VENDOR)/app/powermodule_java/oat/arm64/powermodule_java.vdex \
+    vendor/meizu/m2391/proprietary/vendor/bin/COSNet_spatial_8bit_quantized.serialized.bin:$(TARGET_COPY_OUT_VENDOR)/bin/COSNet_spatial_8bit_quantized.serialized.bin \
+    vendor/meizu/m2391/proprietary/vendor/bin/checkpoint_gc:$(TARGET_COPY_OUT_VENDOR)/bin/checkpoint_gc \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama_3_2_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama_3_2_1.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama_3_4_0.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama_3_4_0.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot-kalama_default_3_4_1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot-kalama_default_3_4_1.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.kernel.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.kernel.post_boot.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.mdm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.mdm.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.media.videofilter.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.media.videofilter.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.meizu.smart_zram.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.meizu.smart_zram.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.class_core.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.class_core.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.coex.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.coex.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.early_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.early_boot.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.efs.sync.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.efs.sync.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.post_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.post_boot.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.sdio.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sdio.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qcom.usb.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.usb.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.display_boot.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.display_boot.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.debug-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug-kalama.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.debug.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.debug.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.early_debug-kalama.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.early_debug-kalama.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.early_debug.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.early_debug.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.kernel.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.kernel.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.media.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.media.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.qcv.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qcv.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/init.qti.write.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.write.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/qca6234-service.sh:$(TARGET_COPY_OUT_VENDOR)/bin/qca6234-service.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/qtigetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtigetprop \
+    vendor/meizu/m2391/proprietary/vendor/bin/qtisetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtisetprop \
+    vendor/meizu/m2391/proprietary/vendor/bin/system_dlkm_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/system_dlkm_modprobe.sh \
+    vendor/meizu/m2391/proprietary/vendor/bin/vendor_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_modprobe.sh \
     vendor/meizu/m2391/proprietary/vendor/etc/IPACM_Filter_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_Filter_cfg.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/IPACM_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/IPACM_cfg.xml \
     vendor/meizu/m2391/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
@@ -1642,7 +1677,6 @@ PRODUCT_PACKAGES += \
     libqti-iopd_m2391 \
     libqti-perfd-client_m2391 \
     libqti-perfd_m2391 \
-    libqti-qesdk-secure_m2391 \
     libqti-util_m2391 \
     libqti-utils_m2391 \
     libqtigefar_m2391 \
@@ -2065,6 +2099,7 @@ PRODUCT_PACKAGES += \
     libqsh_geofence_m2391 \
     libqsh_utils_m2391 \
     libqsh_wifi_test_m2391 \
+    libqti-qesdk-secure_m2391 \
     libqtivibratoreffect \
     libqtivibratoreffectoffload \
     libreffeature_m2391 \
@@ -2667,6 +2702,7 @@ PRODUCT_PACKAGES += \
     m2391_link_lib64_libGLESv2_adreno_so \
     m2391_link_lib64_libq3dtools_adreno_so \
     m2391_link_odm \
+    m2391_link_lib_libqti_qesdk_secure_so \
     CneApp.libvndfwk_detect_jni.qti_vendor_symlink \
     rfs_apq_gnss_hlos_symlink \
     rfs_apq_gnss_ramdumps_symlink \
