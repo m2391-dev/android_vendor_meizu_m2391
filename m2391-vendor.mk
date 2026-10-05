@@ -2416,7 +2416,6 @@ PRODUCT_PACKAGES += \
     qvrdatauploader_m2391 \
     qvrservicetest_m2391 \
     qwesd_m2391 \
-    rkp_factory_extraction_tool \
     rmt_storage_m2391 \
     rpmbClient_m2391 \
     rpmbd_m2391 \

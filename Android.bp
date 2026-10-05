@@ -31323,25 +31323,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "rkp_factory_extraction_tool",
-    owner: "meizu",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/rkp_factory_extraction_tool",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "rmt_storage_m2391",
     stem: "rmt_storage",
     owner: "meizu",
