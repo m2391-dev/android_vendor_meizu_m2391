@@ -1535,7 +1535,6 @@ PRODUCT_PACKAGES += \
     libdualcam_optical_zoom_control_m2391 \
     libdualcam_video_optical_zoom_m2391 \
     libeffects \
-    libeffectsconfig \
     libengineplugin_m2391 \
     libesepmconfig_m2391 \
     libesesbprovision_m2391 \
@@ -1684,7 +1683,6 @@ PRODUCT_PACKAGES += \
     libpolygon_m2391 \
     libpowercallback_m2391 \
     libpowercore_m2391 \
-    libpsi \
     libpsmoptfeature_m2391 \
     libqape_oem_ext_m2391 \
     libqc2audio_base_m2391 \
@@ -1885,7 +1883,6 @@ PRODUCT_PACKAGES += \
     libvideoutils_m2391 \
     libvmfilexfer_m2391 \
     libvmmem \
-    libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti_vendor \
     libvppclient_m2391 \
     libvppcommon_m2391 \
