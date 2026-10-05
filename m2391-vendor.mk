@@ -1046,109 +1046,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor_dlkm/lib/modules/system_dlkm.modules.blocklist:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/system_dlkm.modules.blocklist
 
 PRODUCT_PACKAGES += \
-    android.automotive.watchdog-V2-ndk \
-    android.frameworks.cameraservice.common@2.0 \
-    android.frameworks.cameraservice.device@2.0 \
-    android.frameworks.cameraservice.device@2.1 \
-    android.frameworks.cameraservice.service@2.0 \
-    android.frameworks.cameraservice.service@2.1 \
-    android.frameworks.cameraservice.service@2.2 \
-    android.frameworks.sensorservice@1.0 \
-    android.hardware.audio.common-util \
-    android.hardware.audio.common@2.0-util \
-    android.hardware.audio.common@4.0-util \
-    android.hardware.audio.common@4.0 \
-    android.hardware.audio.common@5.0-util \
-    android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@6.0-util \
-    android.hardware.audio.common@6.0 \
-    android.hardware.audio.common@7.0-enums \
-    android.hardware.audio.common@7.0-util \
-    android.hardware.audio.common@7.0 \
-    android.hardware.audio.common@7.1-enums \
-    android.hardware.audio.common@7.1-util \
-    android.hardware.audio.effect@2.0-util \
-    android.hardware.audio.effect@2.0 \
-    android.hardware.audio.effect@4.0-util \
-    android.hardware.audio.effect@4.0 \
-    android.hardware.audio.effect@5.0-util \
-    android.hardware.audio.effect@5.0 \
-    android.hardware.audio.effect@6.0-util \
-    android.hardware.audio.effect@6.0 \
-    android.hardware.audio.effect@7.0-util \
-    android.hardware.audio.effect@7.0 \
-    android.hardware.audio@2.0-util \
-    android.hardware.audio@2.0 \
-    android.hardware.audio@4.0-util \
-    android.hardware.audio@4.0 \
-    android.hardware.audio@5.0-util \
-    android.hardware.audio@5.0 \
-    android.hardware.audio@6.0-util \
-    android.hardware.audio@6.0 \
-    android.hardware.audio@7.0-util \
-    android.hardware.audio@7.0 \
-    android.hardware.audio@7.1-util \
-    android.hardware.audio@7.1 \
-    android.hardware.authsecret@1.0 \
-    android.hardware.automotive.vehicle@2.0-manager-lib \
-    android.hardware.automotive.vehicle@2.0 \
-    android.hardware.bluetooth.audio@2.0 \
-    android.hardware.bluetooth.audio@2.1 \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.1 \
-    android.hardware.boot@1.0 \
-    android.hardware.boot@1.1 \
-    android.hardware.boot@1.2 \
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device@1.0 \
-    android.hardware.camera.device@3.2 \
-    android.hardware.camera.device@3.3 \
-    android.hardware.camera.device@3.4 \
-    android.hardware.camera.device@3.5 \
-    android.hardware.camera.device@3.6 \
-    android.hardware.camera.provider@2.4-external \
-    android.hardware.camera.provider@2.4-legacy \
-    android.hardware.camera.provider@2.4 \
-    android.hardware.gatekeeper@1.0 \
-    android.hardware.graphics.composer@2.1 \
-    android.hardware.graphics.composer@2.2 \
-    android.hardware.graphics.composer@2.3 \
-    android.hardware.health@1.0 \
-    android.hardware.health@2.0 \
-    android.hardware.health@2.1 \
-    android.hardware.keymaster@3.0 \
-    android.hardware.keymaster@4.0 \
-    android.hardware.keymaster@4.1 \
-    android.hardware.media.c2@1.0 \
-    android.hardware.nfc@1.0 \
-    android.hardware.nfc@1.1 \
-    android.hardware.nfc@1.2 \
-    android.hardware.power@1.0 \
-    android.hardware.power@1.1 \
-    android.hardware.power@1.2 \
-    android.hardware.radio@1.0 \
-    android.hardware.radio@1.1 \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.4 \
-    android.hardware.radio@1.5 \
-    android.hardware.radio@1.6 \
     android.hardware.secure_element@1.0-impl_m2391 \
-    android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.1 \
-    android.hardware.secure_element@1.2 \
-    android.hardware.sensors@1.0 \
-    android.hardware.sensors@2.0-ScopedWakelock \
-    android.hardware.sensors@2.0 \
-    android.hardware.sensors@2.1 \
-    android.hardware.soundtrigger@2.1 \
-    android.hardware.soundtrigger@2.2 \
-    android.hardware.soundtrigger@2.3 \
-    android.hardware.thermal@1.0 \
-    android.hardware.thermal@2.0 \
-    android.hidl.allocator@1.0 \
-    android.system.net.netd@1.0 \
-    android.system.net.netd@1.1 \
     btaudio_offload_if_m2391 \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
@@ -1274,7 +1172,6 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.pdlib_m2391 \
     camx.device-impl_m2391 \
     camx.provider-impl_m2391 \
-    com.dsi.ant@1.0 \
     com.qti.camx.chiiqutils_m2391 \
     com.qti.chiusecaseselector_m2391 \
     com.qti.feature2.afbrckt_m2391 \
@@ -1440,7 +1337,6 @@ PRODUCT_PACKAGES += \
     libagmmixer_m2391 \
     libaidenoiser_m2391 \
     libaidenoiserv2_m2391 \
-    libalsautils \
     libaodoptfeature_m2391 \
     libar-acdb_m2391 \
     libar-gpr_m2391 \
@@ -1453,15 +1349,12 @@ PRODUCT_PACKAGES += \
     libats_m2391 \
     libaudio_log_utils_m2391 \
     libaudiochargerlistener_m2391 \
-    libavservices_minijail \
     libbacklight-calib_m2391 \
     libbase64_m2391 \
     libbatching_m2391 \
     libbatterylistener_m2391 \
     libbitmlengine_m2391 \
     libbitmlenginev2_m2391 \
-    libbluetooth_audio_session \
-    libbluetooth_audio_session_aidl \
     libbluetooth_audio_session_aidl_qti_m2391 \
     libbluetooth_audio_session_qti_m2391 \
     libbluetooth_audio_session_qti_2_1_m2391 \
@@ -1470,7 +1363,6 @@ PRODUCT_PACKAGES += \
     libbtnv_m2391 \
     libc2filterplugin_m2391 \
     libcacertclient_m2391 \
-    libcamera2ndk_vendor \
     libcamerapostproc_m2391 \
     libcamxcommonutils_m2391 \
     libcamxexternalformatutils_m2391 \
@@ -1496,7 +1388,6 @@ PRODUCT_PACKAGES += \
     libcdsprpc_m2391 \
     libchifeature2_m2391 \
     libchilog_m2391 \
-    libchrome \
     libcld80211_m2391 \
     libclstc_algorithm_adapter_m2391 \
     libclstc_gcp_adapter_m2391 \
@@ -1505,9 +1396,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient_m2391 \
     libcneoplookup_m2391 \
     libcneqmiutils_m2391 \
-    libcodec2_hidl@1.0 \
-    libcodec2_hidl_plugin \
-    libcodec2_vndk \
     libcom.qti.chinodeutils_m2391 \
     libcommonchiutils_m2391 \
     libconfigdb_m2391 \
@@ -1525,7 +1413,6 @@ PRODUCT_PACKAGES += \
     libdisplayskuutils_m2391 \
     libdpmqmihal_m2391 \
     libdpps_m2391 \
-    libdrm \
     libdrmfs_m2391 \
     libdrmtime_m2391 \
     libdrmutils_m2391 \
@@ -1534,7 +1421,6 @@ PRODUCT_PACKAGES += \
     libdsutils_m2391 \
     libdualcam_optical_zoom_control_m2391 \
     libdualcam_video_optical_zoom_m2391 \
-    libeffects \
     libengineplugin_m2391 \
     libesepmconfig_m2391 \
     libesesbprovision_m2391 \
@@ -1574,10 +1460,7 @@ PRODUCT_PACKAGES += \
     libhdrdynamic_m2391 \
     libhdrdynamicootf_m2391 \
     libhfp_pal_m2391 \
-    libhidltransport \
-    libhidparser \
     libhme_m2391 \
-    libhwbinder \
     libidl_m2391 \
     libintervmipc_m2391 \
     libipebpsstriping_m2391 \
@@ -1588,10 +1471,8 @@ PRODUCT_PACKAGES += \
     libizat_core_m2391 \
     libjnihelper_m2391 \
     libjpege_m2391 \
-    libjson \
     libkcl_m2391 \
     libkernelmanager_m2391 \
-    libkeymaster_messages \
     libkeymasterdeviceutils_m2391 \
     libkeymasterprovision_m2391 \
     libkeymasterutils_m2391 \
@@ -1630,8 +1511,6 @@ PRODUCT_PACKAGES += \
     libmctfengine_stub_m2391 \
     libmdmdetect_m2391 \
     libmdsprpc_m2391 \
-    libmediautils_vendor \
-    libmemunreachable \
     libmemutils_m2391 \
     libmfGhostDetection_m2391 \
     libmfec_m2391 \
@@ -1649,7 +1528,6 @@ PRODUCT_PACKAGES += \
     libmzfactory_m2391 \
     libnanopb_m2391 \
     libnative-api_m2391 \
-    libnbaio_mono \
     libnetmgr_m2391 \
     libnetmgr_common_m2391 \
     libnetmgr_datapath_proxy_m2391 \
@@ -1767,8 +1645,6 @@ PRODUCT_PACKAGES += \
     libqti-qesdk-secure_m2391 \
     libqti-util_m2391 \
     libqti-utils_m2391 \
-    libqti_vndfwk_detect \
-    libqti_vndfwk_detect_vendor \
     libqtigefar_m2391 \
     libqtikeymaster4_m2391 \
     libqtikeymint_m2391 \
@@ -1787,15 +1663,12 @@ PRODUCT_PACKAGES += \
     librcmask_m2391 \
     librecovery_updater_m2391 \
     librecovery_updater_msm_m2391 \
-    libreference-ril \
     libremosaic_wrapper_m2391 \
     libril-db_m2391 \
     libril-legacy_m2391 \
     libril-qc-ltedirectdisc_m2391 \
     libril-qc-radioconfig_m2391 \
-    libril \
     librilqmimiscservices_m2391 \
-    librilutils \
     librmnetctl_m2391 \
     librpmb_m2391 \
     libscveCommon_m2391 \
@@ -1848,10 +1721,8 @@ PRODUCT_PACKAGES += \
     libssc_m2391 \
     libssc_default_listener_m2391 \
     libssd_m2391 \
-    libstagefright_bufferpool@2.0.1 \
     libstagefright_soft_ffmpegadec_m2391 \
     libstagefright_soft_ffmpegvdec_m2391 \
-    libstagefright_softomx \
     libstagefrighthw_m2391 \
     libstandbyfeature_m2391 \
     libstreamparser_m2391 \
@@ -1869,7 +1740,6 @@ PRODUCT_PACKAGES += \
     libthermalclient_m2391 \
     libthreadutils_m2391 \
     libtime_genoff_m2391 \
-    libtinycompress \
     libtinyxml2_1_m2391 \
     libtracker_6dof_impl_m2391 \
     libtriplecam_optical_zoom_control_m2391 \
@@ -1882,8 +1752,6 @@ PRODUCT_PACKAGES += \
     libvideotxr_m2391 \
     libvideoutils_m2391 \
     libvmfilexfer_m2391 \
-    libvmmem \
-    libvndfwk_detect_jni.qti_vendor \
     libvppclient_m2391 \
     libvppcommon_m2391 \
     libvpphcp_m2391 \
@@ -1894,13 +1762,10 @@ PRODUCT_PACKAGES += \
     libwifi-hal-ctrl_m2391 \
     libwifi-hal-qcom_m2391 \
     libwms_m2391 \
-    libwpa_client \
     libwqe_m2391 \
     libwvaidl_m2391 \
     libxml_m2391 \
     libxtadapter_m2391 \
-    libclearkeycasplugin \
-    libdrmclearkeyplugin \
     nfc_nci.nqx.default.hw_m2391 \
     nfc_nci.st21nfc.st_m2391 \
     qcrilInterfaces_m2391 \
@@ -1924,24 +1789,15 @@ PRODUCT_PACKAGES += \
     qtiwakelock_m2391 \
     sensors.ssc_m2391 \
     libasphere_m2391 \
-    libaudiopreprocessing \
     libbassboostMz_m2391 \
-    libbundlewrapper \
-    libdownmix \
-    libdynproc \
-    libeffectproxy \
     libequalizerMz_m2391 \
-    libhapticgenerator \
-    libldnhncr \
     liblivemusicMz_m2391 \
     libqcompostprocbundle_m2391 \
     libqcomvisualizer_m2391 \
     libqcomvoiceprocessing_m2391 \
     libquasar_m2391 \
-    libreverbwrapper \
     libshoebox_m2391 \
     libvirtualizerMz_m2391 \
-    libvisualizer \
     libvolumelistener_m2391 \
     uwb_uci.helios.nxp4mz_m2391 \
     vendor.aks.gamepad@1.0_m2391 \
@@ -1953,19 +1809,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.5_m2391 \
     vendor.display.color@1.6_m2391 \
     vendor.display.color@1.7_m2391 \
-    vendor.display.config@1.0 \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.10 \
-    vendor.display.config@1.11 \
-    vendor.display.config@1.2 \
-    vendor.display.config@1.3 \
-    vendor.display.config@1.4 \
-    vendor.display.config@1.5 \
-    vendor.display.config@1.6 \
-    vendor.display.config@1.7 \
-    vendor.display.config@1.8 \
-    vendor.display.config@1.9 \
-    vendor.display.config@2.0 \
     vendor.display.postproc@1.0_m2391 \
     vendor.libdpmctmgr_m2391 \
     vendor.libdpmfdmgr_m2391 \
@@ -1996,24 +1839,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.ListenSoundModel@1.0_m2391 \
     vendor.qti.hardware.alarm@1.0_m2391 \
     vendor.qti.hardware.automotive.vehicle@1.0_m2391 \
-    vendor.qti.hardware.bluetooth.audio-V1-ndk \
-    vendor.qti.hardware.bluetooth_audio@2.0 \
-    vendor.qti.hardware.bluetooth_audio@2.1 \
     vendor.qti.hardware.bluetooth_sar@1.0_m2391 \
     vendor.qti.hardware.bluetooth_sar@1.1_m2391 \
-    vendor.qti.hardware.btconfigstore@1.0 \
-    vendor.qti.hardware.btconfigstore@2.0 \
     vendor.qti.hardware.bttpi-V2-ndk_m2391 \
     vendor.qti.hardware.cacert@1.0_m2391 \
     vendor.qti.hardware.camera.aon-service-impl_m2391 \
-    vendor.qti.hardware.camera.aon@1.0 \
-    vendor.qti.hardware.camera.aon@1.1 \
-    vendor.qti.hardware.camera.aon@1.2 \
-    vendor.qti.hardware.camera.aon@1.3 \
-    vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl_m2391 \
-    vendor.qti.hardware.camera.postproc@1.0 \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0_m2391 \
     vendor.qti.hardware.data.cne.internal.constants@1.0_m2391 \
     vendor.qti.hardware.data.cne.internal.server@1.0_m2391 \
@@ -2034,27 +1865,12 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0_m2391 \
     vendor.qti.hardware.data.lce@1.0_m2391 \
     vendor.qti.hardware.data.qmi@1.0_m2391 \
-    vendor.qti.hardware.display.allocator@1.0 \
-    vendor.qti.hardware.display.allocator@3.0 \
-    vendor.qti.hardware.display.allocator@4.0 \
-    vendor.qti.hardware.display.composer@1.0 \
-    vendor.qti.hardware.display.composer@2.0 \
     vendor.qti.hardware.display.config-V1-ndk_m2391 \
     vendor.qti.hardware.display.config-V2-ndk_m2391 \
     vendor.qti.hardware.display.config-V3-ndk_m2391 \
     vendor.qti.hardware.display.config-V4-ndk_m2391 \
     vendor.qti.hardware.display.config-V5-ndk_m2391 \
     vendor.qti.hardware.display.config-V6-ndk_m2391 \
-    vendor.qti.hardware.display.demura@2.0 \
-    vendor.qti.hardware.display.mapper@1.0 \
-    vendor.qti.hardware.display.mapper@1.1 \
-    vendor.qti.hardware.display.mapper@2.0 \
-    vendor.qti.hardware.display.mapper@3.0 \
-    vendor.qti.hardware.display.mapper@4.0 \
-    vendor.qti.hardware.display.mapperextensions@1.0 \
-    vendor.qti.hardware.display.mapperextensions@1.1 \
-    vendor.qti.hardware.display.mapperextensions@1.2 \
-    vendor.qti.hardware.display.mapperextensions@1.3 \
     vendor.qti.hardware.dpmservice@1.0_m2391 \
     vendor.qti.hardware.dpmservice@1.1_m2391 \
     vendor.qti.hardware.dsp@1.0_m2391 \
@@ -2065,10 +1881,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0_m2391 \
     vendor.qti.hardware.pal@1.0-impl_m2391 \
     vendor.qti.hardware.pal@1.0_m2391 \
-    vendor.qti.hardware.perf@2.0 \
-    vendor.qti.hardware.perf@2.1 \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.3 \
     vendor.qti.hardware.power.powermodule@1.0_m2391 \
     vendor.qti.hardware.qccsyshal@1.0_m2391 \
     vendor.qti.hardware.qccsyshal@1.1_m2391 \
@@ -2117,9 +1929,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.2_m2391 \
     vendor.qti.hardware.radio.uim_remote_server@1.0_m2391 \
     vendor.qti.hardware.sensorscalibrate@1.0_m2391 \
-    vendor.qti.hardware.servicetracker@1.0 \
-    vendor.qti.hardware.servicetracker@1.1 \
-    vendor.qti.hardware.servicetracker@1.2 \
     vendor.qti.hardware.slmadapter@1.0_m2391 \
     vendor.qti.hardware.soter@1.0_m2391 \
     vendor.qti.hardware.vpp@1.1_m2391 \
@@ -2161,16 +1970,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0_m2391 \
     vendor.qti.voiceprint@1.0_m2391 \
     vendor.rongcard.hardware.eid_rk@1.0_m2391 \
-    android.hardware.cas.native@1.0 \
-    android.hardware.cas@1.0 \
-    android.hardware.cas@1.1 \
-    android.hardware.cas@1.2 \
     android.hardware.soundtrigger@2.1-impl \
     libeai_fixed_32_m2391 \
-    libopus \
-    libstagefright_amrnb_common \
-    libstagefright_enc_common \
-    libstagefright_flacdec \
     libstagefright_soft_aacdec_m2391 \
     libstagefright_soft_aacenc_m2391 \
     libstagefright_soft_amrdec_m2391 \
@@ -2192,40 +1993,8 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec_m2391 \
     libstagefright_soft_vpxdec_m2391 \
     libstagefright_soft_vpxenc_m2391 \
-    libstagefright_softomx_plugin \
-    libvorbisidec \
-    libvpx \
     libstagefright_foundation_m2391 \
     libstagefright_omx_m2391 \
-    android.hardware.atrace@1.0 \
-    android.hardware.biometrics.common-V1-ndk \
-    android.hardware.biometrics.face@1.0 \
-    android.hardware.biometrics.fingerprint-V1-ndk \
-    android.hardware.drm@1.0 \
-    android.hardware.drm@1.1 \
-    android.hardware.drm@1.2 \
-    android.hardware.drm@1.3 \
-    android.hardware.graphics.composer@2.4 \
-    android.hardware.power-V4-ndk \
-    android.hardware.security.keymint-V1-ndk \
-    android.hardware.tetheroffload.config@1.0 \
-    android.hardware.tetheroffload.control@1.0 \
-    android.hardware.tetheroffload.control@1.1 \
-    android.hardware.usb.gadget@1.0 \
-    android.hardware.usb.gadget@1.1 \
-    android.hardware.usb@1.0 \
-    android.hardware.usb@1.1 \
-    android.hardware.usb@1.2 \
-    android.hardware.weaver@1.0 \
-    android.hardware.wifi@1.0 \
-    android.hardware.wifi@1.1 \
-    android.hardware.wifi@1.2 \
-    android.hardware.wifi@1.3 \
-    android.hardware.wifi@1.4 \
-    android.hardware.wifi@1.5 \
-    android.hardware.wifi@1.6 \
-    android.system.keystore2-V1-ndk \
-    android.system.wifi.keystore@1.0 \
     com.arcsoft.node.smooth_transition_m2391 \
     com.arcsoft.node.supernightraw_m2391 \
     com.qti.node.remosaic_m2391 \
@@ -2258,7 +2027,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_super_night_raw_m2391 \
     libarcsoft_triple_sat_m2391 \
     libarcsoft_triple_zoomtranslator_m2391 \
-    libbinderdebug \
     libc++_shared_m2391 \
     libcert_parse.wpa_s_m2391 \
     libdepthcomputation_m2391 \
@@ -2266,11 +2034,8 @@ PRODUCT_PACKAGES += \
     libeai_float_m2391 \
     libeepromcutter_m2391 \
     libembmsservice_m2391 \
-    libgflags \
     libhistogram_m2391 \
     libipanat_m2391 \
-    libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl \
     liblearningmodule_m2391 \
     liblightninglaunches_m2391 \
     liblmthermallistner_m2391 \
@@ -2284,8 +2049,6 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor_m2391 \
     libmmrtpdecoder_vendor_m2391 \
     libmmrtpencoder_vendor_m2391 \
-    libnetfilter_conntrack \
-    libnfnetlink \
     liboffloadhal_m2391 \
     libprefapps_m2391 \
     libprekill_m2391 \
@@ -2307,7 +2070,6 @@ PRODUCT_PACKAGES += \
     libreffeature_m2391 \
     libremosaiclib_m2391 \
     librmsclib1_m2391 \
-    libsensorndkbridge \
     libsensors.hal.tof_m2391 \
     libsensors.hal.tof.st_m2391 \
     libsilkyscrolls_m2391 \
@@ -2318,7 +2080,6 @@ PRODUCT_PACKAGES += \
     libtlpd_crypto_m2391 \
     libtlpd_internal_m2391 \
     libtlpd_logger_m2391 \
-    libwfdaac_vendor \
     libwfdcodecv4l2_proprietary_m2391 \
     libwfdcommonutils_proprietary_m2391 \
     libwfdconfigutils_proprietary_m2391 \
@@ -2339,7 +2100,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_vendor_m2391 \
     libwfduibcsrcinterface_vendor_m2391 \
     libwfdutils_proprietary_m2391 \
-    libwifi-hal \
     libxcharge_manager_m2391 \
     ls_nq_client_m2391 \
     se_nq_extn_client_m2391 \
@@ -2350,8 +2110,6 @@ PRODUCT_PACKAGES += \
     vendor.meizu.hardware.meizu_kelog@1.0_m2391 \
     vendor.meizu.hardware.qsh_geofence-V1-ndk_platform_m2391 \
     vendor.meizu.sensor_aux_m2391@1.0-default-impl_m2391 \
-    vendor.qti.hardware.display.composer@3.0 \
-    vendor.qti.hardware.display.composer@3.1 \
     vendor.qti.hardware.embmssl@1.0_m2391 \
     vendor.qti.hardware.embmssl@1.1_m2391 \
     vendor.qti.hardware.factory@1.0_m2391 \
@@ -2359,12 +2117,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.0_m2391 \
     vendor.qti.hardware.limits@1.1_m2391 \
     vendor.qti.hardware.limits@1.2_m2391 \
-    vendor.qti.hardware.qspa-V1-ndk \
     vendor.qti.hardware.radio.atcmdfwd-V1-ndk_m2391 \
     vendor.qti.hardware.radio.internal.deviceinfo-V1-ndk_m2391 \
     vendor.qti.hardware.sigma_miracast@1.0_m2391 \
     vendor.qti.hardware.vibrator.impl \
-    vendor.qti.hardware.wifi.supplicant-V1-ndk \
     vendor.qti.hardware.wifi.wifilearner@1.0_m2391 \
     vendor.qti.hardware.wifidisplaysession@1.0_m2391 \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl_m2391 \
