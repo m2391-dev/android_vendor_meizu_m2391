@@ -29977,7 +29977,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqcodec2_core.so",
             ],
             shared_libs: [
-                "libcodec2_shim",
+                "libcodec2_m2391",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -29999,7 +29999,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqcodec2_core.so",
             ],
             shared_libs: [
-                "libcodec2_shim",
+                "libcodec2_m2391",
                 "libutils",
                 "libcutils",
                 "liblog",
