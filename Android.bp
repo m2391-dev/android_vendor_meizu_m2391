@@ -56282,7 +56282,6 @@ cc_prebuilt_binary {
                 "libbase",
                 "libutils",
                 "libbinder_ndk",
-                "android.hardware.power-V3-ndk",
                 "android.hardware.power-V4-ndk",
                 "libc++",
                 "libc",
