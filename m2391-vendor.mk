@@ -1989,8 +1989,8 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_foundation_vendor \
-    libstagefright_omx_vendor \
+    libstagefright_foundation_vndk \
+    libstagefright_omx_vndk \
     com.arcsoft.node.smooth_transition \
     com.arcsoft.node.supernightraw \
     com.qti.node.remosaic \
