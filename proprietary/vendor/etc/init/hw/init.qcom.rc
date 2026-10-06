@@ -572,7 +572,7 @@ service qmiproxy /system/bin/qmiproxy
     group radio diag
     disabled
 
-service vendor.wigig_supplicant /vendor/bin/hw/wpa_supplicant \
+service vendor.wigig_supplicant /vendor/bin/hw/wpa_supplicant.m2391 \
     -iwigig0 -Dnl80211 -c/data/vendor/wifi/wigig_supplicant.conf \
     -m/data/vendor/wifi/wigig_p2p_supplicant.conf \
     -O/data/vendor/wifi/wigig_sockets -dd \
