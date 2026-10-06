@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/meizu/m2391",
         "hardware/qcom-caf/bootctrl",
     ],
 }
@@ -15456,7 +15457,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libbase",
+                "libbase-v33",
                 "libhidlbase",
                 "libhidltransport",
                 "libutils",
@@ -15477,7 +15478,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "liblog",
-                "libbase",
+                "libbase-v33",
                 "libhidlbase",
                 "libhidltransport",
                 "libutils",
@@ -29976,6 +29977,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqcodec2_core.so",
             ],
             shared_libs: [
+                "libcodec2_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -29997,6 +29999,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqcodec2_core.so",
             ],
             shared_libs: [
+                "libcodec2_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -33156,6 +33159,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqtikeymint.so",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V2-ndk",
                 "liblog",
                 "libcrypto",
                 "libhidlbase",
@@ -33183,6 +33187,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libqtikeymint.so",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V2-ndk",
                 "liblog",
                 "libcrypto",
                 "libhidlbase",
@@ -36119,6 +36124,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libspukeymint.so",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V2-ndk",
                 "liblog",
                 "libcrypto",
                 "libhidlbase",
@@ -36144,6 +36150,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libspukeymint.so",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V2-ndk",
                 "liblog",
                 "libcrypto",
                 "libhidlbase",
@@ -38566,7 +38573,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.nfc@1.2",
                 "vendor.nxp.hardware.nfc@2.0",
                 "android.hardware.secure_element@1.0",
-                "libbase",
+                "libbase-v33",
                 "libcutils",
                 "libhardware",
                 "libhardware_legacy",
@@ -38589,7 +38596,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.nfc@1.2",
                 "vendor.nxp.hardware.nfc@2.0",
                 "android.hardware.secure_element@1.0",
-                "libbase",
+                "libbase-v33",
                 "libcutils",
                 "libhardware",
                 "libhardware_legacy",
@@ -40770,7 +40777,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "libhidlbase",
+                "libhidlbase-v32",
                 "libhardware",
                 "libhardware_legacy",
                 "com.qualcomm.qti.dpm.api@1.0",
@@ -40793,7 +40800,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "libhidlbase",
+                "libhidlbase-v32",
                 "libhardware",
                 "libhardware_legacy",
                 "com.qualcomm.qti.dpm.api@1.0",
@@ -48318,6 +48325,33 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libstagefright_foundation-meizu",
+    owner: "meizu",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libstagefright_foundation-meizu.so",
+            ],
+            shared_libs: [
+                "libutils",
+                "libcutils",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libstagefright_soft_aacdec",
     owner: "meizu",
     strip: {
@@ -48916,35 +48950,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefright_foundation_vndk",
-    stem: "libstagefright_foundation",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vndk/libstagefright_foundation.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "vndk",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libstagefright_omx_vndk",
     stem: "libstagefright_omx",
     owner: "meizu",
@@ -48964,7 +48969,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libui",
                 "libcutils",
-                "libstagefright_foundation",
+                "libstagefright_foundation-meizu",
                 "libstagefright_bufferqueue_helper",
                 "libstagefright_xmlparser",
                 "libhidlbase",
@@ -50152,6 +50157,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libkeystore-engine-wifi-hidl-v33",
+    owner: "meizu",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libkeystore-engine-wifi-hidl-v33.so",
+            ],
+            shared_libs: [
+                "android.system.keystore2-V1-ndk",
+                "libbase",
+                "libbinder_ndk",
+                "libcrypto-v33",
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "liblearningmodule",
     owner: "meizu",
     strip: {
@@ -50978,7 +51014,7 @@ cc_prebuilt_library_shared {
                 "libhidlbase",
                 "libhidltransport",
                 "vendor.qti.hardware.fingerprint@1.0",
-                "libbase",
+                "libbase-v33",
                 "libbinder_ndk",
                 "android.hardware.biometrics.fingerprint-V1-ndk",
                 "android.hardware.biometrics.common-V1-ndk",
@@ -56127,6 +56163,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V2-ndk",
                 "liblog",
                 "libcutils",
                 "libbase",
@@ -56165,6 +56202,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/android.hardware.security.keymint-service-spu-qti",
             ],
             shared_libs: [
+                "android.hardware.security.rkp-V2-ndk",
                 "liblog",
                 "libcutils",
                 "libbase",
@@ -56441,7 +56479,7 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libcrypto",
+                "libcrypto-v33",
                 "libssl",
                 "libnl",
                 "android.hardware.wifi.hostapd-V1-ndk",
@@ -57994,10 +58032,10 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libcrypto",
+                "libcrypto-v33",
                 "libssl",
                 "libkeystore-wifi-hidl",
-                "libkeystore-engine-wifi-hidl",
+                "libkeystore-engine-wifi-hidl-v33",
                 "libnl",
                 "libcert_parse.wpa_s",
                 "android.hardware.wifi.supplicant-V1-ndk",
@@ -59342,7 +59380,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/qguard",
             ],
             shared_libs: [
-                "libbase",
+                "libbase-v33",
                 "libcutils",
                 "liblog",
                 "libjsoncpp",
@@ -60234,6 +60272,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/slim_daemon",
             ],
             shared_libs: [
+                "libemutls_m2391",
                 "libgps.utils",
                 "liblog",
                 "libdiag",
@@ -61050,33 +61089,6 @@ cc_prebuilt_binary {
             ],
             shared_libs: [
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vndservice",
-    owner: "meizu",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/vndservice",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "libbinder",
                 "libc++",
                 "libc",
                 "libm",

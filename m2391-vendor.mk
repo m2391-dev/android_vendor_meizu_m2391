@@ -1963,6 +1963,7 @@ PRODUCT_PACKAGES += \
     vendor.rongcard.hardware.eid_rk@1.0 \
     android.hardware.soundtrigger@2.1-impl \
     libeai_fixed_32 \
+    libstagefright_foundation-meizu \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \
     libstagefright_soft_amrdec \
@@ -1984,7 +1985,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_foundation_vndk \
     libstagefright_omx_vndk \
     com.arcsoft.node.smooth_transition \
     com.arcsoft.node.supernightraw \
@@ -2027,6 +2027,7 @@ PRODUCT_PACKAGES += \
     libembmsservice \
     libhistogram \
     libipanat \
+    libkeystore-engine-wifi-hidl-v33 \
     liblearningmodule \
     liblightninglaunches \
     liblmthermallistner \
@@ -2440,7 +2441,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0-service \
     vendor_cmd_tool \
     vmmgr \
-    vndservice \
     vndservicemanager \
     vppcommonlibraryunittest \
     vppipcunittest \
