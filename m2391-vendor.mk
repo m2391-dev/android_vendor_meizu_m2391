@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m2391
 
 PRODUCT_COPY_FILES += \
+    vendor/meizu/m2391/proprietary/system_ext/etc/permissions/qti_telephony_hidl_wrapper.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_telephony_hidl_wrapper.xml \
+    vendor/meizu/m2391/proprietary/system_ext/etc/permissions/qti_telephony_utils.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_telephony_utils.xml \
     vendor/meizu/m2391/proprietary/vendor/bin/COSNet_spatial_8bit_quantized.serialized.bin:$(TARGET_COPY_OUT_VENDOR)/bin/COSNet_spatial_8bit_quantized.serialized.bin \
     vendor/meizu/m2391/proprietary/vendor/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
     vendor/meizu/m2391/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
@@ -2199,6 +2201,18 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libvpp_svc_skel_so \
     vendor_lib_rfsa_adsp_libvpp_vqa_networks_so \
     vendor_lib_rfsa_adsp_libvpt_action_recognition_so \
+    lib-imsvideocodec \
+    lib-imsvt \
+    lib-imsvtextutils \
+    lib-imsvtutils \
+    libdiag_system \
+    libimscamera_jni \
+    libimsmedia_jni \
+    vendor.qti.ImsRtpService-V2-ndk \
+    vendor.qti.diaghal-V1-ndk \
+    vendor.qti.diaghal@1.0_system_ext \
+    vendor.qti.imsrtpservice@3.0_system_ext \
+    vendor.qti.imsrtpservice@3.1_system_ext \
     CACertService \
     CneApp \
     ConnectionSecurityService \
@@ -2210,6 +2224,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.gpudrivers.kalama.api33 \
     pasrservice \
     powermodule_java \
+    qti-telephony-hidl-wrapper \
+    qti-telephony-utils \
     ATFWD-daemon \
     AnchorTest \
     GPTEE_Sample_client \
