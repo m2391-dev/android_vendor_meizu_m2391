@@ -1234,7 +1234,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio@7.1-impl \
     android.hardware.bluetooth.audio-impl-qti \
-    android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.bluetooth.audio@2.0-impl_vendor \
     android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.bluetooth@1.1-impl-qti \
     android.hardware.boot@1.0-impl-1.2-qti \

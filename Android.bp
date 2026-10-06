@@ -13004,7 +13004,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.bluetooth.audio@2.0-impl",
+    name: "android.hardware.bluetooth.audio@2.0-impl_vendor",
+    stem: "android.hardware.bluetooth.audio@2.0-impl",
     owner: "meizu",
     strip: {
         none: true,
