@@ -1245,7 +1245,7 @@ PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl \
     android.hardware.soundtrigger@2.2-impl \
     android.hardware.soundtrigger@2.3-impl \
-    audio.bluetooth.default \
+    audio.bluetooth.default_vendor \
     audio.bluetooth_qti.default \
     audio.primary.default \
     audio.primary.kalama \
@@ -1351,6 +1351,8 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libbitmlengine \
     libbitmlenginev2 \
+    libbluetooth_audio_session_vendor \
+    libbluetooth_audio_session_aidl_vendor \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -2286,14 +2288,14 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gatekeeper@1.0-service-spu-qti \
     android.hardware.gnss-aidl-service-qti \
-    android.hardware.health-service.qti \
+    android.hardware.health-service.qti_vendor \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.media.omx@1.0-service \
     android.hardware.power-service \
     android.hardware.security.keymint-service-qti \
     android.hardware.security.keymint-service-spu-qti \
-    android.hardware.sensors-service.multihal \
+    android.hardware.sensors-service.multihal_vendor \
     android.hardware.thermal@2.0-service.qti-v2 \
     android.hardware.usb.gadget@1.1-service-qti \
     android.hardware.usb@1.2-service-qti \
@@ -2345,7 +2347,7 @@ PRODUCT_PACKAGES += \
     vendor.rongcard.hardware.eid_rk@1.0-service \
     vendor.xingji.hardware.biometrics.face@1.0-service \
     vendor.xingji.hardware.qsee.store@1.0-service \
-    wpa_supplicant \
+    wpa_supplicant_vendor \
     image_update \
     ims-dataservice-daemon \
     ims_rtp_daemon \

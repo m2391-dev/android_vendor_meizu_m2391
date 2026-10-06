@@ -13018,7 +13018,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common@5.0",
                 "android.hardware.bluetooth.audio@2.0",
                 "libbase",
-                "libbluetooth_audio_session",
+                "libbluetooth_audio_session_vendor",
                 "libcutils",
                 "libfmq",
                 "libhidlbase",
@@ -13038,7 +13038,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.audio.common@5.0",
                 "android.hardware.bluetooth.audio@2.0",
                 "libbase",
-                "libbluetooth_audio_session",
+                "libbluetooth_audio_session_vendor",
                 "libcutils",
                 "libfmq",
                 "libhidlbase",
@@ -13678,7 +13678,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.bluetooth.default",
+    name: "audio.bluetooth.default_vendor",
+    stem: "audio.bluetooth.default",
     owner: "meizu",
     strip: {
         none: true,
@@ -13690,7 +13691,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.hardware.bluetooth.audio-V2-ndk",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libaudioutils",
                 "libbase",
                 "libbinder_ndk",
@@ -13700,7 +13701,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
-                "libbluetooth_audio_session",
+                "libbluetooth_audio_session_vendor",
                 "libhidlbase",
                 "libc++",
                 "libc",
@@ -13714,7 +13715,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "android.hardware.bluetooth.audio-V2-ndk",
-                "libbluetooth_audio_session_aidl",
+                "libbluetooth_audio_session_aidl_vendor",
                 "libaudioutils",
                 "libbase",
                 "libbinder_ndk",
@@ -13724,7 +13725,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "android.hardware.bluetooth.audio@2.0",
                 "android.hardware.bluetooth.audio@2.1",
-                "libbluetooth_audio_session",
+                "libbluetooth_audio_session_vendor",
                 "libhidlbase",
                 "libc++",
                 "libc",
@@ -18889,6 +18890,118 @@ cc_prebuilt_library_shared {
                 "libsync",
                 "libcdsprpc",
                 "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbluetooth_audio_session_vendor",
+    stem: "libbluetooth_audio_session",
+    owner: "meizu",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbluetooth_audio_session.so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common@5.0",
+                "android.hardware.bluetooth.audio@2.0",
+                "android.hardware.bluetooth.audio@2.1",
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libbluetooth_audio_session_aidl_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbluetooth_audio_session.so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common@5.0",
+                "android.hardware.bluetooth.audio@2.0",
+                "android.hardware.bluetooth.audio@2.1",
+                "libbase",
+                "libcutils",
+                "libfmq",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libbluetooth_audio_session_aidl_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbluetooth_audio_session_aidl_vendor",
+    stem: "libbluetooth_audio_session_aidl",
+    owner: "meizu",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbluetooth_audio_session_aidl.so",
+            ],
+            shared_libs: [
+                "android.hardware.bluetooth.audio@2.0",
+                "android.hardware.bluetooth.audio@2.1",
+                "libbase",
+                "libcutils",
+                "libbinder_ndk",
+                "libfmq",
+                "liblog",
+                "android.hardware.bluetooth.audio-V2-ndk",
+                "libhidlbase",
+                "libxml2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbluetooth_audio_session_aidl.so",
+            ],
+            shared_libs: [
+                "android.hardware.bluetooth.audio@2.0",
+                "android.hardware.bluetooth.audio@2.1",
+                "libbase",
+                "libcutils",
+                "libbinder_ndk",
+                "libfmq",
+                "liblog",
+                "android.hardware.bluetooth.audio-V2-ndk",
+                "libhidlbase",
+                "libxml2",
                 "libc++",
                 "libc",
                 "libm",
@@ -56099,7 +56212,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.health-service.qti",
+    name: "android.hardware.health-service.qti_vendor",
+    stem: "android.hardware.health-service.qti",
     owner: "meizu",
     target: {
         android_arm64: {
@@ -56344,7 +56458,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.sensors-service.multihal",
+    name: "android.hardware.sensors-service.multihal_vendor",
+    stem: "android.hardware.sensors-service.multihal",
     owner: "meizu",
     target: {
         android_arm64: {
@@ -58170,7 +58285,8 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "wpa_supplicant",
+    name: "wpa_supplicant_vendor",
+    stem: "wpa_supplicant",
     owner: "meizu",
     target: {
         android_arm64: {
