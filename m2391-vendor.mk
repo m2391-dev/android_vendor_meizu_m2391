@@ -207,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-external-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-external-service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.m2391.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -2282,7 +2281,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-service \
     android.hardware.camera.provider@2.4-external-service \
     android.hardware.cas@1.2-service \
-    android.hardware.drm-service.clearkey \
     android.hardware.drm-service.widevine \
     android.hardware.dumpstate-service.qti \
     android.hardware.gatekeeper@1.0-service-qti \

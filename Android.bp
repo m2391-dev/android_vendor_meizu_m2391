@@ -55937,38 +55937,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.drm-service.clearkey",
-    owner: "meizu",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.drm-service.clearkey",
-            ],
-            shared_libs: [
-                "libbase",
-                "libbinder_ndk",
-                "libcrypto",
-                "liblog",
-                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
-                "libutils",
-                "android.hardware.drm-V1-ndk",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.drm-service.widevine",
     owner: "meizu",
     target: {
