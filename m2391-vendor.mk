@@ -337,7 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.xingji.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xingji.hardware.biometrics.face@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vendor.xingji.hardware.qsee.store@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xingji.hardware.qsee.store@1.0-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vmmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vmmgr.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/vndservicemanager.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
@@ -2441,7 +2440,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.qspmhal@1.0-service \
     vendor_cmd_tool \
     vmmgr \
-    vndservicemanager \
     vppcommonlibraryunittest \
     vppipcunittest \
     vpplibraryfunctionaltest \
