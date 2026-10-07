@@ -1352,7 +1352,6 @@ PRODUCT_PACKAGES += \
     libboot_control_qti \
     libbt-hidlclient \
     libbtnv \
-    libc2filterplugin \
     libcacertclient \
     libcamerapostproc \
     libcamxcommonutils \
