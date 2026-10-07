@@ -62092,6 +62092,20 @@ filegroup {
 }
 
 filegroup {
+    name: "m2391_ifaa_service_apk",
+    srcs: [
+        "proprietary/system/app/IFAAService/IFAAService.apk",
+    ],
+}
+
+filegroup {
+    name: "m2391_soter_service_apk",
+    srcs: [
+        "proprietary/system/app/SoterService/SoterService.apk",
+    ],
+}
+
+filegroup {
     name: "m2391_qti_telephony_service_apk",
     srcs: [
         "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
