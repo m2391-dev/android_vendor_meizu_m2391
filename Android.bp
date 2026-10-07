@@ -54472,24 +54472,6 @@ android_app_import {
     soc_specific: true,
 }
 
-dex_import {
-    name: "qti-telephony-hidl-wrapper",
-    owner: "meizu",
-    jars: [
-        "proprietary/system_ext/framework/qti-telephony-hidl-wrapper.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "qti-telephony-utils",
-    owner: "meizu",
-    jars: [
-        "proprietary/system_ext/framework/qti-telephony-utils.jar",
-    ],
-    system_ext_specific: true,
-}
-
 cc_prebuilt_binary {
     name: "ATFWD-daemon",
     owner: "meizu",
