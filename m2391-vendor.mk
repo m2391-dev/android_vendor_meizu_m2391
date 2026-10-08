@@ -261,7 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2391/proprietary/vendor/etc/init/loc-launcher.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/loc-launcher.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/memtrack_qti.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack_qti.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
-    vendor/meizu/m2391/proprietary/vendor/etc/init/nxp-uwb-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp-uwb-service.rc \
+    vendor/meizu/m2391/proprietary/vendor/etc/init/nxp-uwb-service.m2391.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nxp-uwb-service.m2391.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/poweropt-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/poweropt-service.rc \
     vendor/meizu/m2391/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
